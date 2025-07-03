@@ -1,0 +1,40 @@
+{
+  "name": "acrobits",
+  "version": "0.0.1",
+  "description": "Acrobits",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-blocks": "wp-scripts build ./dev/admin/gutenberg/editor.js --output-path=./dist/admin/gutenberg/"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/scripts": "^27.6.0",
+    "browser-sync": "^2.29.3",
+    "browser-sync-webpack-plugin": "^2.3.0",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-livereload": "^4.0.2",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "laravel-mix": "^6.0.49",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.86.0",
+    "sass-loader": "^12.6.0"
+  },
+  "dependencies": {
+    "@splinetool/runtime": "^1.0.91"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.acrobits.cz:web/acrobits.net.git"
+  },
+  "keywords": []
+}

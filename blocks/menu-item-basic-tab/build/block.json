@@ -1,0 +1,35 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "acrobits/menu-item-basic-tab",
+  "version": "0.1.0",
+  "title": "Menu Item Basic Tab",
+  "category": "widgets",
+  "description": "A menu item with title and paragraph",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Menu Item"
+    },
+    "paragraph": {
+      "type": "string",
+      "default": "Add your paragraph here"
+    },
+    "level": {
+      "type": "number",
+      "default": 1
+    },
+    "url": {
+      "type": "string",
+      "default": "#"
+    }
+  },
+  "textdomain": "menu-item-basic-tab",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php"
+}

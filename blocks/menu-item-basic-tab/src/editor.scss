@@ -1,0 +1,13 @@
+.menu-item-basic-tab {
+    padding: 20px;
+    border: 1px dashed #ccc;
+    background: #f9f9f9;
+
+    &__title {
+        margin-bottom: 15px;
+    }
+
+    &__paragraph {
+        margin: 0;
+    }
+} 

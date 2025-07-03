@@ -1,0 +1,41 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 3,
+    "name": "acrobits/menu-item-basic",
+    "version": "0.1.0",
+    "title": "Menu Item Basic",
+    "category": "widgets",
+    "icon": "smiley",
+    "description": "A basic menu item block with icon, title and text",
+    "example": {},
+    "supports": {
+        "html": false
+    },
+    "textdomain": "menu-item-basic",
+    "editorScript": "file:./index.js",
+    "editorStyle": "file:./index.css",
+    "style": "file:./style-index.css",
+    "attributes": {
+        "title": {
+            "type": "string",
+            "source": "html",
+            "selector": "h2"
+        },
+        "text": {
+            "type": "string",
+            "source": "html",
+            "selector": "p"
+        },
+        "url": {
+            "type": "string",
+            "default": ""
+        },
+        "image": {
+            "type": "object",
+            "default": {
+                "url": "",
+                "id": ""
+            }
+        }
+    }
+} 

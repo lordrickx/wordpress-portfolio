@@ -1,0 +1,32 @@
+{
+  "name": "menu-item-basic",
+  "version": "0.1.1",
+  "description": "A simple menu item block",
+  "scripts": {
+    "build": "wp-scripts build && copy src\\render.php build\\",
+    "start": "wp-scripts start"
+  },
+  "dependencies": {
+    "@wordpress/blocks": "^12.0.0",
+    "@wordpress/components": "^23.0.0",
+    "@wordpress/element": "^5.0.0",
+    "@wordpress/i18n": "^4.0.0"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^26.0.0"
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Menu Item"
+    },
+    "url": {
+      "type": "string",
+      "default": "#"
+    },
+    "linkText": {
+      "type": "string",
+      "default": "Click here"
+    }
+  }
+} 
