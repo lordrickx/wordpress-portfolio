@@ -1,0 +1,39 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "acrobits/menu-back-button",
+  "version": "0.1.0",
+  "title": "Menu Back Button",
+  "category": "widgets",
+  "icon": "arrow-left-alt",
+  "description": "A button to navigate back in the menu hierarchy",
+  "keywords": [
+    "menu",
+    "button",
+    "back",
+    "navigation"
+  ],
+  "example": {},
+  "supports": {
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "textdomain": "menu-back-button",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php",
+  "attributes": {
+    "text": {
+      "type": "string",
+      "default": "Back"
+    },
+    "level": {
+      "type": "string",
+      "default": "1"
+    }
+  }
+}

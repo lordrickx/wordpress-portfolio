@@ -1,0 +1,62 @@
+.menu-back-button-block {
+    width: 100%;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #D0CDD5;
+    display: none;
+}
+
+.step_3_close {
+    border-bottom: 0px solid #D0CDD5;
+}
+
+.menu-back-button {
+    background: none;
+    border: none;
+    color: #333;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 20px 0;
+    transition: all 0.2s ease;
+
+    &:hover {
+        color: #5024A8 !important;
+        transform: translateX(-2px);
+
+        &::before {
+            filter: invert(24%) sepia(98%) saturate(2097%) hue-rotate(251deg) brightness(95%) contrast(101%);
+        }
+    }
+
+    &::before {
+        content: '';
+        width: 16px;
+        height: 16px;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16' fill='none'%3E%3Cpath d='M10.6667 13.3333L5.33333 8L10.6667 2.66667' stroke='%231E1C21' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+        background-repeat: no-repeat;
+        background-position: center;
+        transition: filter 0.3s ease;
+    }
+}
+
+// Estilos para móvil
+@media (max-width: 1309px) {
+    .menu-back-button {
+        width: 100%;
+        justify-content: flex-start;
+        color: #1E1C21;
+        font-family: Figtree, sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+        /* 125% */
+    }
+
+    .menu-back-button-block {
+        display: block;
+    }
+}

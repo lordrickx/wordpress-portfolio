@@ -1,0 +1,1 @@
+// Frontend JavaScript - si se necesita en el futuro 

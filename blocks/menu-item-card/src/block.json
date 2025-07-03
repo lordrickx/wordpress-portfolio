@@ -1,0 +1,45 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 3,
+    "name": "acrobits/menu-item-card",
+    "version": "0.1.0",
+    "title": "Menu Item Card",
+    "category": "widgets",
+    "icon": "format-image",
+    "description": "A menu item card with image, title, text and featured image",
+    "keywords": ["menu", "card", "image"],
+    "supports": {
+        "html": false,
+        "align": ["wide", "full"]
+    },
+    "attributes": {
+        "title": {
+            "type": "string",
+            "default": "Menu Item"
+        },
+        "text": {
+            "type": "string",
+            "default": "Add your text here"
+        },
+        "image": {
+            "type": "object",
+            "default": {
+                "url": "",
+                "id": null
+            }
+        },
+        "featuredImage": {
+            "type": "object",
+            "default": {
+                "url": "",
+                "id": null
+            }
+        }
+    },
+    "textdomain": "menu-item-card",
+    "editorScript": "file:./index.js",
+    "editorStyle": "file:./index.css",
+    "style": "file:./style-index.css",
+    "render": "file:./render.php",
+    "viewScript": "file:./view.js"
+} 

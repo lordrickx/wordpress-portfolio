@@ -21,10 +21,6 @@
         "level": {
             "type": "number",
             "default": 1
-        },
-        "url": {
-            "type": "string",
-            "default": "#"
         }
     },
     "textdomain": "menu-item-basic-tab",

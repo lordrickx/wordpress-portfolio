@@ -1,0 +1,1 @@
+{"version":3,"sources":["acro-softphone-forms/style.scss"],"names":[],"mappings":"AAEA,0BACE,QAAA,KACA,eAAA,OACA,yBAHF,0BAII,eAAA","file":"../../acro-softphone-forms/style.css","sourcesContent":["@import \"../../inc/vars\";\n\n.acrobits_softphone-forms {\n  display: flex;\n  flex-direction: column;\n  @media (min-width: $screen-sm){\n    flex-direction: row;\n  }\n}"]}
