@@ -2,7 +2,7 @@
 
 ## 👨‍💻 About Me
 
-WordPress developer specialized in creating custom Gutenberg blocks and advanced ACF components. Experienced in developing modern and scalable web solutions.
+WordPress developer specialized in creating custom themes, Gutenberg blocks and advanced ACF components. Experienced in developing modern and scalable web solutions.
 
 ## 🛠️ Technologies & Tools
 
